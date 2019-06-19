@@ -29,7 +29,7 @@
 			<input type="submit" value="Register Account">
 			<?php if(isset($_GET['status'])){
 						if($_GET['status']==="Success"){
-							echo '<p class="success">Account Generated Sucessfully</p>';
+							echo '<p class="success">Account Generated Successfully</p>';
 						}else{
 							echo '<p class="error">Account Registration Failed</p>';
 						}
